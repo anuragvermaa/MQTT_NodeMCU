@@ -4,7 +4,7 @@
 /************************* WiFi Access Point *********************************/ 
 #define WLAN_SSID       "ssid" 
 #define WLAN_PASS       "password" 
-#define MQTT_SERVER      "192.168.0.108"  // give static address
+#define MQTT_SERVER      "ip"  // MQTT Broker address
 #define MQTT_PORT         1883                    
 #define MQTT_USERNAME    "" 
 #define MQTT_PASSWORD         "" 
