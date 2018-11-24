@@ -5,27 +5,12 @@ Arduino library for MQTT using NodeMCU and ESP8266.
 
 
 Setup Raspberry Pi
-
-1. Import Repository Package
-
-    wget http://repo.mosquitto.org/debian/mosquitto-repo.gpg.key
   
-    sudo apt-key add mosquitto-repo.gpg.key
-
-
-2. Make it availalbe
-
-    cd /etc/apt/sources.list.d/
-    
-    sudo wget http://repo.mosquitto.org/debian/mosquitto-jessie.list
-    
-    sudo apt-get update
-  
-3. Install MQTT server and client
+1. Install Mosquitto MQTT server and client
 
     sudo apt install -y mosquitto mosquitto-clients
 
-4. Check Successful Installation (should show active)
+2. Check Successful Installation (should show active)
 
     systemctl status mosquitto.service 
 
@@ -58,3 +43,21 @@ Setup Arduino
 
 
 Now, you can run MQTT_Pi.py (from repository) and should see sensor data on tereminal.
+
+
+NOTE: If you are getting errors installing Mosquitto-MQTT, follow this:
+
+1. Import Repository Package
+
+    wget http://repo.mosquitto.org/debian/mosquitto-repo.gpg.key
+  
+    sudo apt-key add mosquitto-repo.gpg.key
+
+
+2. Make it availalbe
+
+    cd /etc/apt/sources.list.d/
+    
+    sudo wget http://repo.mosquitto.org/debian/mosquitto-jessie.list
+    
+    sudo apt-get update
