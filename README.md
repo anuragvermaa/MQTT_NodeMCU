@@ -1,8 +1,8 @@
 # MQTT_NodeMCU
 
-Arduino library for MQTT support using NodeMCU and ESP8266.
+Arduino library for MQTT using NodeMCU and ESP8266.
 
-Just replace "ssid","password" and Broker(RPi) IP address with your credentials in .ino file.
+
 
 Setup Raspberry Pi
 
@@ -40,6 +40,7 @@ Setup Raspberry Pi
     mosquitto_pub -h raspberrypi -t "/leds/esp8266" -m "OFF"
 
 
+
 Setup Arduino
 
 1. Install "Adafruit MQTT" from "Mannge Libraries"
@@ -53,6 +54,7 @@ Setup Arduino
     Define "led_pin" and "sensor_input"
     
 3. Upload the sketch and open Serial Monitor at 115200
+
 
 
 Now, you can run MQTT_Pi.py (from repository) and should see sensor data on tereminal.
