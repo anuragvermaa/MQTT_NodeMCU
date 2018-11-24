@@ -44,7 +44,7 @@ Setup Arduino
 
 1. Install "Adafruit MQTT" from "Mannge Libraries"
 
-2. Open .ino from this repositiry in Arduino IDE
+2. Open MQTT_NodeMCU.ino in Arduino IDE
 
     Replace "ssid" and "password" 
     Replace Broker(RPi) IP address
@@ -53,4 +53,4 @@ Setup Arduino
 3. Upload the sketch and open Serial Monitor at 115200
 
 
-Now, you can run main.py (from repository) and should see sensor data on tereminal.
+Now, you can run MQTT_Pi.py (from repository) and should see sensor data on tereminal.
