@@ -47,7 +47,9 @@ Setup Arduino
 2. Open MQTT_NodeMCU.ino in Arduino IDE
 
     Replace "ssid" and "password" 
+    
     Replace Broker(RPi) IP address
+    
     Define "led_pin" and "sensor_input"
     
 3. Upload the sketch and open Serial Monitor at 115200
